@@ -1,0 +1,25 @@
+{
+  "name": "test-application",
+  "version": "1.0.0",
+  "description": "This is a simple test application to test the this chart. Including the properties volume",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.github.com:/hmcts/chart-nodejs"
+  },
+  "author": "HMCTS Reform",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "@hmcts/nodejs-healthcheck": "1.7.0",
+    "@hmcts/properties-volume": "0.0.13",
+    "config": "^3.3.1",
+    "express": "^4.17.3",
+    "js-yaml": "^3.14.0"
+  }
+}

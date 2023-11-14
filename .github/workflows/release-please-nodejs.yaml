@@ -17,3 +17,5 @@ jobs:
         with:
           release-type: node
           package-name: test-image/package.json
+          extra-files: |
+            test-image/package.json

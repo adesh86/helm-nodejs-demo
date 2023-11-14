@@ -16,6 +16,4 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         with:
           release-type: node
-          package-name: test-image/package.json
-          extra-files: |
-            test-image/package.json
+          

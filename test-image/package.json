@@ -1,6 +1,6 @@
 {
   "name": "test-application",
-  "version": "1.0.0", # {x-release-please-version}
+  "version": "1.0.0", 
   "description": "This is a simple test application to test the this chart. Including the properties volume",
   "main": "index.js",
   "scripts": {

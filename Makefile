@@ -17,7 +17,7 @@ help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf " make \033[36m%-30s\033[0m %s\n", $$1, $$2}'
 	@echo ""
 
-all: setup clean lint deploy test ## [ Default command ] Lints, installs and tests the current chart
+all: setup clean lint deploy test ## [ Default command ] Lints, installs and tests the current chart added
 
 setup: ## Configures your Azure ACR with sandbox credentials for testing purpose
 	az account set --subscription ${ACR_SUBSCRIPTION}
